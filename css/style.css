@@ -118,7 +118,9 @@ ul.bit-values li {
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 8px solid rgb(61,20,96);
+	border: none;
+	color: #fff;
+	background-color: rgba(154,154,226,0.6);
 }
 
 a.btn-answer {
