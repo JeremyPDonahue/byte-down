@@ -1,0 +1,208 @@
+/*                           Shared Styles
+==========================================*/
+
+html,
+body {
+	background-color: #000;
+}
+
+.container,
+.answer-field {
+	text-align: center;
+}
+
+h1, 
+a.btn-answer {
+	font-family: 'Monoton', cursive;
+}
+
+.btn-hide-show,
+.btn-hide-show:hover,
+.btn-hide-show:focus,
+header button.btn-instructions,
+header button.btn-instructions:hover,
+header button.btn-instructions:focus {
+	background-color: transparent;
+}
+
+header h1,
+.answer-field {
+	margin-bottom: 40px;
+}
+
+a.btn-answer,
+.btn-hide-show,
+a.btn-answer:hover,
+.btn-hide-show:hover,
+.btn-hide-show:focus,
+header button.btn-instructions,
+header button.btn-instructions:hover,
+header button.btn-instructions:focus {
+	transition: all 0.5s;
+}
+
+h4,
+ul.bit-values li,
+header button.btn-instructions:hover,
+header button.btn-instructions:focus {
+	color: rgba(255,255,255,0.8);
+}
+
+.bit-container,
+ul.bit-values li {
+	display: inline-block;
+}
+
+a.btn-answer,
+a.btn-answer:hover {
+	background-color: rgb(61,20,96);
+	border: 1px solid rgb(61,20,96);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.btn-hide-show:hover,
+.btn-hide-show:focus {
+	color: rgb(104,187,93);
+	border-bottom: 1px solid rgb(197,102,145);
+
+}
+
+header button.btn-instructions:hover,
+header button.btn-instructions:focus {
+	border: 1px solid rgb(136,200,182);
+}
+
+.btn-hide-show,
+footer a {
+	color: rgb(88,63,139);
+}
+
+
+/*                           Unique Styles
+==========================================*/
+
+header h1 {
+	font-size: 5rem;
+	color: rgb(77,23,96);
+	text-shadow: 1px 1px 1px #fff;
+}
+
+header button.btn-instructions {
+	margin-bottom: 20px;
+	border: 1px solid rgb(173,205,227);
+}
+
+ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+ul.bit-values li {
+	padding: 10px;
+}
+
+.counter {
+	color: rgb(154,154,226);
+	font-size: 4rem;
+}
+
+.answer-field {
+	display: block;
+	font-size: 3rem;
+	border-radius: 8px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 8px solid rgb(61,20,96);
+}
+
+a.btn-answer {
+	font-size: 2.7rem;
+	width: 200px;
+	height: 55px;
+	color: rgb(79,157,86);
+}
+
+a.btn-answer:hover {
+	color: rgb(154,241,138);
+}
+
+.bits {
+	margin-top: 40px;
+	font-size: 3rem;
+}
+
+.bit-container {
+	padding: 10px;
+	color: #fff;
+}
+
+.btn-hide-show {
+	border: none;
+	border-bottom: 1px solid rgb(79,157,86);
+}
+
+#instruction-window {
+	text-align: left;
+}
+
+.objective,
+#instruction-window a {
+	color: rgb(61,20,96);
+}
+
+footer {
+	text-align: center;
+	height: 200px;
+	padding-top: 80px;
+}
+
+footer h6 {
+	color: rgb(79,157,86);
+}
+
+
+/*                           Media Queries
+==========================================*/
+
+@media only screen and (max-width: 39em) {
+
+	.answer-field {
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+
+	.bit-container {
+		padding: 20px;
+	}
+
+	.answer-field {
+		width: 50%;
+		font-size: 3.5rem;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+
+	header h1 {
+		font-size: 8rem;
+	}
+
+	.answer-field {
+		font-size: 4rem;
+	}
+}
+
+@media only screen and (min-width: 80em) {
+
+	.answer-field {
+		font-size: 5rem;
+	}
+}
