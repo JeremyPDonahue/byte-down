@@ -1,3 +1,5 @@
+This is the first thing I ever coded. Kept here for the sake of nostalga.
+
 # byte-down
 A game centered around the value of a byte
 
